@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final days = 38;
+    final days = 398;
     final String name = "Ravi Kumar";
     return Scaffold(
       appBar: AppBar(
@@ -13,10 +13,12 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome $name to $days days of flutter"),
+          child: Text(
+              "Welcome $name to $days days of flutter "),
         ),
       ),
       drawer: Drawer(),
     );
   }
+  
 }
