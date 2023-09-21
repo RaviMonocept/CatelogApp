@@ -5,6 +5,7 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int i = 0;
     return Material(
         color: Colors.white,
         child: Column(
@@ -45,7 +46,8 @@ class LoginPage extends StatelessWidget {
                     child: Text("Login !"),
                     style: TextButton.styleFrom(),
                     onPressed: () {
-                      print("Welcome to login Button !");
+                      i++;
+                      print("Welcome to login Button ! $i");
                     },
                   )
                 ],
