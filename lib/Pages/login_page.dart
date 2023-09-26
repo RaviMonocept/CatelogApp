@@ -81,7 +81,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       TextFormField(
                         obscureText: true,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                             hintText: "Enter password !",
                             labelText: "Password"),
                         validator: (value) {
