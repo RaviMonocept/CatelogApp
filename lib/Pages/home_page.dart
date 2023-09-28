@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("CataLog App Day 10 Final changes"  ),
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.green,
       ),
       body: Center(
         child: Container(
